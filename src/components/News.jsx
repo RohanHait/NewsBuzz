@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React  from 'react'
 import NewsCard from './NewsCard'
 import { useSelector , useDispatch} from 'react-redux'
 import { addResponseData } from '../storeConfig'

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import SwitchTheme from "./SwitchMode";
+// import SwitchTheme from "./SwitchMode";
 import SearchBar from "./SearchBar";
 import NewsTab from "./NewsTab";
-import { Select, Field } from "@headlessui/react";
+// import { Select, Field } from "@headlessui/react";
 function Navbar() {
   const [activeTab, setActiveTab] = useState(0);
   const handleClick = () => {
@@ -57,7 +57,7 @@ function Navbar() {
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="currentColor"
-              class="size-6"
+              className="size-6"
             >
               <path
                 strokeLinecap="round"
@@ -72,7 +72,7 @@ function Navbar() {
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="currentColor"
-              class="size-6"
+              className="size-6"
             >
               <path
                 strokeLinecap="round"

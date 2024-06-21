@@ -17,7 +17,7 @@ function NewsTab() {
             console.log(err)
         })
         dispatch(setLoading(false))
-    }, [])
+    })
 
     const handleClick = (index) =>{
         api.setQuery(null) ;
