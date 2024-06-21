@@ -18,8 +18,8 @@ function Navbar() {
     <div className="sticky top-0 z-40">
       <div className="flex md:justify-around p-2 min-h-16 border-b navbar-color border-gray-100 dark:border-slate-900 gap-1 md:gap-3 items-center  ">
         <div className="font-extrabold font-mono text-center  text-nowrap text-lg sm:text-xl md:text-3xl m-auto px-5 ">
-          <span className="sm:hidden">NF</span>
-          <span className="hidden sm:inline">News Feed</span>
+          <span className="sm:hidden">NB</span>
+          <span className="hidden sm:inline">News Buzz</span>
         </div>
         <div className="flex-1 h-12 my-1">
           <SearchBar />
